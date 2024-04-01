@@ -1,0 +1,9 @@
+TSP evolution
+  Randomly generate one path around the circuit
+  Create a Generation of 20 circuits
+    Randomly remove and replace one choice in each circuit
+  Iterate through the generation of circuits and choose the shortest one
+  Run through 100 generations
+    each generation pick the shortest circuit to be the template for the next generation
+    
+  
