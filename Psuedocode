@@ -1,0 +1,12 @@
+##start of psuedocode
+def tsp_backtrack(name_file, distance_file):
+  convert files to usable format [(city, [distanecs from other city])]
+  journeys = empty_list
+  generate journeys(partial_journey, remaining_cities):
+    if remaining_cities == 0:
+      global journeys
+      journeys.append(partial_journey)
+    else:
+      
+    
+
